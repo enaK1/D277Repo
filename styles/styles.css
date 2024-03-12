@@ -1,49 +1,51 @@
-.background {
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    font-size: 62.5%;
+    
+}
+
+body {
+    font-family: Roboto, serif;
+    color: linen;
+    background-color: rgb(20, 30, 40);
+}
+
+h1 {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: gray;
-    margin: 20px auto;
-    box-shadow: 0 0 3px 3px black;
-    border-radius: 9px;
-    transform: rotate(-0.6deg);
-}
-.header {
-    
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 80px;
+    margin-left: 1.5%;
 }
 
-.nav {
+aside {
+
+}
+
+blockquote {
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid linen;
+    border-radius: 3%;
+    margin: 5%;
+
+}
+
+.landscape-img {
     position: relative;
-    background-color: navy;
-    border-radius: 6px;
-    width: 100%;
-    height: 50px;
-    top: 10px;
-    left: 10px;
+    left: 40%;
+    height: 100;
+    width: 100;
 }
 
-.content {
-    position: absolute;    
-}
-
-.main {
+.flag-img {
     position: relative;
-    background-color: navy;
-    border-radius: 6px;
-    width: 100%;
-    height: 80%;
-    top: 10px;
-    left: 30%;
-    right: 10%;
+    left: 45%;
+    height: 100;
+    width: 100;
 }
 
-.aside {
-    position: sticky;
-    background-color: navy;
-    border-radius: 6px;
-    width: 20%;
-    height: 80%;
-    top: 10px;
-    
-
-}
