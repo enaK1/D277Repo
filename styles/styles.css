@@ -5,7 +5,7 @@
   }
 
 html {
-    font-size: 62.5%;
+    font-size: 50%;
     
 }
 
@@ -15,37 +15,63 @@ body {
     background-color: rgb(20, 30, 40);
 }
 
+a {
+    border: 1px solid white;
+    margin: .5rem;
+    padding: .5rem
+}
+
 h1 {
-    position: absolute;
     font-family: 'Segoe UI', sans-serif;
     font-size: 80px;
     margin-left: 1.5%;
+    text-align: center;
 }
 
-aside {
+.landscape-img {
+    position: relative;
+}
 
+.flag-img {
+    position: relative;
 }
 
 blockquote {
     text-align: center;
     font-size: 30px;
     border: 1px solid linen;
-    border-radius: 3%;
-    margin: 5%;
-
+    border-radius: 9px;
+    padding: 0.5%;
+    margin: 2.5%;
 }
 
-.landscape-img {
+nav {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid linen;
+    border-radius: 9px;
+    padding: 1rem;
+    margin: 2.5%;
+}
+
+.main-side-text {
+    text-align: justify;
+    font-size: 2rem;
+    border: 1px solid linen;
+    margin: 1rem;
+    padding: 1rem
+}
+
+.images {
     position: relative;
-    left: 40%;
-    height: 100;
-    width: 100;
+    margin: auto;
+    padding: 1rem;
 }
 
-.flag-img {
-    position: relative;
-    left: 45%;
-    height: 100;
-    width: 100;
+aside {
+    top: 12rem;
 }
 
+nav>a:hover {
+    background-color: #fff;
+}
