@@ -26,14 +26,11 @@ h1 {
     font-size: 80px;
     margin-left: 1.5%;
     text-align: center;
-}
-
-.landscape-img {
     position: relative;
 }
 
 .flag-img {
-    position: relative;
+    position: absolute;
 }
 
 blockquote {
@@ -54,12 +51,25 @@ nav {
     margin: 2.5%;
 }
 
-.main-side-text {
+section {
     text-align: justify;
     font-size: 2rem;
     border: 1px solid linen;
     margin: 1rem;
-    padding: 1rem
+    padding: 1rem;
+    width: 65%;
+    position: absolute;
+}
+
+aside {
+    text-align: justify;
+    font-size: 2rem;
+    border: 1px solid linen;
+    margin: 1rem;
+    padding:1rem;
+    float: right;
+    width: 30%;
+
 }
 
 .images {
