@@ -104,3 +104,8 @@ table {
     height: 275px;
     width: 200px;
 }
+
+.page-table {
+    text-align: justify;
+    border: 0;
+}
