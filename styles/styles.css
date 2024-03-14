@@ -31,6 +31,7 @@ a {
 
 .flag-img {
     position: absolute;
+    padding: 1rem;
 }
 
 blockquote {
@@ -96,7 +97,8 @@ table {
 }
 
 .city-image {
-    width: 30rem
+    width: 32rem;
+    height: 16rem;
 
 }
 
@@ -108,4 +110,14 @@ table {
 .page-table {
     text-align: justify;
     border: 0;
+}
+
+#river-street-image {
+    height: 300px;
+    width: 200px;
+}
+
+#sky-lift-image {
+    height: 200px;
+    width: 200px;
 }
