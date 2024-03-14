@@ -41,6 +41,7 @@ blockquote {
     border-radius: 9px;
     padding: 0.5%;
     margin: 2.5%;
+    font-weight: bold;
 }
 
 #nav {
