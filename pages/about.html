@@ -14,15 +14,29 @@
                 </h1>
             </header>
             <nav id="nav">
-                <a href=".\index.html">Home</a>
-                <a href=".\pages\atlanta.html">Atlanta</a>
-                <a href=".\pages\savannah.html">Savannah</a>
-                <a href=".\pages\stone-mountain.html">Stone Mountain</a>
-                <a href=".\pages\about.html">About</a>
+                <a href="..\index.html">Home</a>
+                <a href="atlanta.html">Atlanta</a>
+                <a href="savannah.html">Savannah</a>
+                <a href="stone-mountain.html">Stone Mountain</a>
+                <a href="about.html">About</a>
             </nav>
-            <section>
+            <section id="about">
                 <p>
-                    This webpage was created as a project for my Front-End Web Development course at Western Governor's University.
+                    This webpage was created as a project for my Front-End Web Development course at Western Governor's University. Feel free to use the form below to submit any questions, comments, or concerns. Thank you for visiting my page!
                 </p>
             </section>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Enter your first name" required=""><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Enter your last name" required=""><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" placeholder="Enter your email address" required=""><br>
+                <label for="confirm">Confirm Email:</label><br>
+                <input type="text" id="confirm" name="confirm" placeholder="Confirm your email address" required=""><br>
+                <label for="comments">Comments and concerns:</label><br>
+                <textarea id="comments" name="comments" rows="6" cols="24"></textarea><br>
+                <input type="submit" value="Submit"/>
+
+            </form> 
         </body>

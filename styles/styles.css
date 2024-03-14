@@ -121,3 +121,19 @@ table {
     height: 200px;
     width: 200px;
 }
+
+form {
+    margin-top: 12rem;
+    padding: 6rem;
+    text-align: justify;
+    font-size: 15px;
+}
+
+input, textarea {
+    margin: 0.5rem;
+    padding: .5rem;
+}
+
+#about {
+    margin-left: 15%;
+}
