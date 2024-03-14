@@ -64,7 +64,7 @@ section {
 }
 
 aside {
-    text-align: justify;
+    text-align: center;
     font-size: 2rem;
     border: 1px solid linen;
     margin: 1rem;
@@ -118,9 +118,9 @@ table {
     width: 200px;
 }
 
-#sky-lift-image {
+#stone-mountain-old {
     height: 200px;
-    width: 160px;
+    width: 150px;
 }
 
 form {
