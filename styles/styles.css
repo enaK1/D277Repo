@@ -138,3 +138,9 @@ input, textarea {
 #about {
     margin-left: 15%;
 }
+
+#source {
+    border: solid 2px linen;
+    padding: 1rem;
+    background-color: #1f2e42;
+}
