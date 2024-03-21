@@ -125,9 +125,13 @@ table {
 
 form {
     margin-top: 20rem;
+    margin-left: 26rem;
+    margin-right: 25rem;
     padding: 6rem;
     text-align: justify;
     font-size: 15px;
+    height: 500px;
+    width: 500px;
 }
 
 input, textarea {
@@ -143,4 +147,15 @@ input, textarea {
     border: solid 2px linen;
     padding: 1rem;
     background-color: #1f2e42;
+}
+
+#state-seal {
+    margin-top:  10px;
+    height: 150px;
+    width: 150px;
+}
+
+#about-aside {
+    margin-left: 20rem;
+    margin-right: 36rem;
 }
